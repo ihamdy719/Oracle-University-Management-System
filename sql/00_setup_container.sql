@@ -1,1 +1,6 @@
+-- 00_setup_container.sql
+-- Run as SYSDBA
 
+SHOW USER;
+ALTER SESSION SET CONTAINER = XEPDB1;
+SHOW CON_NAME;
